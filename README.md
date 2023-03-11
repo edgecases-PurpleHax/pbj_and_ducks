@@ -8,5 +8,6 @@ psuedo code, we are going to actually build an app that will "make us a PB&J san
 No. No ducks will be harmed in the making of this application. But there will be ducks, nyxiiieee commands it :smile:
 
 ### How to use this repo
-There will be a branch for each stream. The main will have been merged to the most recent stream. Eventually, 
+There will be a branch for each stream. There will also be branches for any cleanup done
+between streams. The main will have been merged to the most recent stream. Eventually, 
 a release will be created for each stream as well, to show some versioning control concepts as well. 
