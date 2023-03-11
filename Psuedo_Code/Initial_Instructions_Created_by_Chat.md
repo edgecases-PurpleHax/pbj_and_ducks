@@ -1,4 +1,4 @@
- Make a peanut butter and jelly sandwich
+ # Make a peanut butter and jelly sandwich: Initial Instructions created by Chat
  1. Get out bread
  2. Get out peanut butter
  3. Get out jelly
