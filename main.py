@@ -1,23 +1,15 @@
+# Define global variables and functions out here
+bread = input("What kind of bread would you like?\r\n")
+peanutButter = input("Would you like crunchy or smooth peanut butter?\r\n")
+jellyJamPreserves = input("Would you like jelly, jam, or preserves?\r\n")
+knife = ""
+jar = ""
+plate = input("Will you be using a plate today?\r\n")
 
-# string
-whiteBread = "White Bread"
-# int
-piecesofBread = 2
-# boolean True False
-crust = True
+
+def getSandwichInfo():
+    return bread, peanutButter, jellyJamPreserves, plate
 
 
-def describe_bread(typeOfBread, numberofPieces, crustOnOrNo):
-    if crustOnOrNo == True:
-        crustOnOrNo = "crust on"
-    else:
-        crustOnOrNo = "crust off"
-    if numberofPieces < 2:
-        return f"You are getting {numberofPieces} piece of {typeOfBread} with {crustOnOrNo}"
-    else:
-        return f"You are getting {numberofPieces} pieces of {typeOfBread} with {crustOnOrNo}"
-
-if __name__ == "__main__":
-    print(describe_bread(whiteBread, piecesofBread, crust))
-    print(describe_bread("Honey Wheat", 1, False))
-    print(describe_bread("Honey Wheat", 2, False))
+if __name__ == "__main__":  # This is where our program begins
+    print(getSandwichInfo())
