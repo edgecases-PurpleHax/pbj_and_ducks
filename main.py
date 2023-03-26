@@ -47,8 +47,7 @@ class Sandwich:
             self.cutOrNo = f"{self.cutDirection} cut"
         else:
             self.cutOrNo = "uncut"
-        print(f"Here is your {self.cutOrNo} {self.pbType} peanut butter "
-              f"and {self.jType} {self.presJelJam} on {self.breadType} bread with {self.crustOrNo}")
+        return f"Here is your {self.cutOrNo} {self.pbType} peanut butter and {self.jType} {self.presJelJam} on {self.breadType} bread with {self.crustOrNo}"
 
 
 def user_sandwich():
